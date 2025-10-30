@@ -2,6 +2,13 @@
 // Examples:
 // console.log(min(0, 10)); // will output 0.
 // console.log(min(0, -10)); // will output -10
+function min(a, b) {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
+}
 
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
 // Example Output:
